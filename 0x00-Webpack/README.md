@@ -1,0 +1,1 @@
+This project introduces the basics of setting up and configuring Webpack for a simple project. By the end, you'll be familiar with core Webpack concepts, including entry points, output, loaders, plugins, code splitting, and setting up a development server. Each of these topics is essential for managing and optimizing assets in a modern JavaScript project.
