@@ -1,5 +1,9 @@
 import $ from 'jquery';
 import _ from 'lodash';
+import '../css/main';
+
+// Add logo element
+$('body').prepend('<div id="logo"></div>');
 
 // Add elements to the DOM
 $('body').append('<p>Holberton Dashboard</p>');
