@@ -1,0 +1,17 @@
+#logo {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
+
+button {
+  font-size: 18px;
+}
+
+#count {
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
