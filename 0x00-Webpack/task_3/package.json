@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start-dev": "webpack serve --open"
+    "start-dev": "webpack-dev-server --open"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
