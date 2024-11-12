@@ -1,8 +1,9 @@
 import $ from 'jquery';
 import _ from 'lodash';
+import '../css/main.css';  // Import the CSS file
 
 $(document).ready(function () {
-  // Add paragraphs and button to the body
+  // Add elements to the body
   $('body').append('<p>Holberton Dashboard</p>');
   $('body').append('<p>Dashboard data for the students</p>');
   $('body').append('<button>Click here to get started</button>');
@@ -21,3 +22,4 @@ $(document).ready(function () {
   // Bind debounce to updateCounter function on button click
   $('button').on('click', _.debounce(updateCounter, 300));
 });
+
