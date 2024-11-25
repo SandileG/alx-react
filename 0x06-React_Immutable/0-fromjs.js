@@ -9,4 +9,4 @@ function getImmutableObject(object) {
   return fromJS(object); // Ensure it returns a Map object
 }
 
-export default getImmutableObject;  // Use default export
+export default getImmutableObject; // Use default export
