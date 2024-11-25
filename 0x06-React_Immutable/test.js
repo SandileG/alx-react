@@ -1,4 +1,4 @@
-const { getImmutableObject } = require('./0-fromjs.js');
+import getImmutableObject from './0-fromjs.js';  // Default import
 
 const obj = {
   fear: true,
@@ -8,4 +8,5 @@ const obj = {
 };
 
 const immutableObj = getImmutableObject(obj);
-console.log(immutableObj);
+console.log(immutableObj instanceof Map);  // Should log: true
+console.log(immutableObj);                // Should display the Map content
